@@ -1,0 +1,25 @@
+{
+  "projects": {
+    "default": "appwhispernumberus---ga4"
+  },
+  "targets": {
+    "appwhispernumberus---ga4": {
+      "hosting": {
+        "blog": [
+          "whispernumber.us/,www.whispernumber.us"
+        ]
+      },
+      "storage": {
+        "blog": [
+          "whispernumber.us/,www.whispernumber.us"
+        ]
+      },
+      "database": {
+        "blog": [
+          "whispernumber.us/,www.whispernumber.us"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

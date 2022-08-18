@@ -79,7 +79,7 @@ struct EditNoteView: View {
                             .padding(.top, 2)
                             .foregroundColor(.gray)
                     }
-                    if let thumbnail = thumbnail {
+                        let thumbnail = thumbnail {
                         let resVarId = thumbnail.lastIndex(of: "s") ?? thumbnail.endIndex
                         let fullResUrl = thumbnail[..<resVarId]
                         Spacer()
